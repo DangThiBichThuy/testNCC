@@ -1,0 +1,41 @@
+/*pc*/
+@media (min-width: 1024px){
+
+}
+/*tablet*/
+@media (max-width:1023px) and (min-width:740px ){
+    #main{
+        width: 100%;
+       
+    }
+    #content {
+        display: block;
+
+    }
+    #content .css {
+       width: 100%;
+    }
+    
+}
+   
+
+
+
+/*Moible*/
+@media (max-width:740px){
+    #main{
+        
+        width:100%
+
+    }
+    #content {
+        display: block;
+
+
+    }
+    #content .css {
+        margin-left: 0px;
+        margin-top: 24px;
+    }
+    
+}
