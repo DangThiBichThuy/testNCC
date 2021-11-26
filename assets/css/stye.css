@@ -21,13 +21,10 @@ html {
 #left hr {
     background-color: rgb(54, 54, 54);
     width: 150px;
-   
     margin-left: -12px;
     border: 0.5px solid rgb(54, 54, 54);
-    width: 150px; ;
+   
 }
-
-
 #nav { 
     display: inline-block;  
     list-style-type: none;
@@ -35,40 +32,19 @@ html {
     line-height: 2;
 }
 
-#nav > li {
-    display: inline-block;
-}
-#nav li {
-    position: relative;
-    
-}
-#nav >li >a{
+#nav li a {
     color: #ccc;
     text-transform: uppercase;
-    
-
-}
-#nav li a {
     text-decoration: none;
     line-height:46px;
     padding:0 24px;
     display: block;
 }
-#nav li:hover  {
-    display: block;
-}
-
-#nav >li:hover >a {
+#nav li:hover a {
     color: #000;
     background-color: #ccc;
     width: 150px;
     margin-left: -12px;
-}
-
-#nav  a {
-    color: #000;
-    padding: 12px;
-    line-height: 38px;
 }
 
 #right {
